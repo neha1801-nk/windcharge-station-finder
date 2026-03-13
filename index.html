@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WindCharge Station Finder – Locate wind-powered mobile charging stations across India. Renewable energy infrastructure for travelers.">
+  <title>WindCharge Station Finder – Wind-Powered Charging Stations</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌬️</text></svg>">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar__logo">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="24" r="22" fill="#d5f5e3"/>
+          <path d="M24 8 L24 40 M24 16 L16 26 M24 16 L32 26" stroke="#27ae60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="24" cy="16" r="3" fill="#27ae60"/>
+        </svg>
+        WindCharge
+      </a>
+      <ul class="navbar__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="map.html">Station Map</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content fade-in">
+        <div class="hero__badge">🌿 Renewable Infrastructure</div>
+        <h1 class="hero__title">
+          <span>WindCharge</span><br>Station Finder
+        </h1>
+        <p class="hero__subtitle">
+          A renewable infrastructure platform that helps travelers locate wind-powered mobile charging stations across India. Clean energy for your devices, anytime, anywhere.
+        </p>
+        <div style="display:flex; gap:14px; flex-wrap:wrap;">
+          <a href="map.html" class="btn btn--primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Find Nearby Stations
+          </a>
+          <a href="about.html" class="btn btn--outline">Learn More</a>
+        </div>
+      </div>
+
+      <div class="hero__illustration fade-in">
+        <div class="turbine-wrapper">
+          <div class="turbine-ground"></div>
+          <div class="turbine-base"></div>
+          <div class="turbine-tower"></div>
+          <div class="turbine-blades">
+            <div class="turbine-blade"></div>
+            <div class="turbine-blade"></div>
+            <div class="turbine-blade"></div>
+          </div>
+          <div class="turbine-hub"></div>
+          <div class="energy-particle"></div>
+          <div class="energy-particle"></div>
+          <div class="energy-particle"></div>
+          <div class="energy-particle"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats__grid">
+        <div class="stat-card fade-in">
+          <div class="stat-card__icon stat-card__icon--green">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v3"/><line x1="12" y1="11" x2="12" y2="15"/></svg>
+          </div>
+          <div class="stat-card__value">14</div>
+          <div class="stat-card__label">Total Charging Stations</div>
+        </div>
+        <div class="stat-card fade-in">
+          <div class="stat-card__icon stat-card__icon--green">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <div class="stat-card__value">9</div>
+          <div class="stat-card__label">Available Nearby</div>
+        </div>
+        <div class="stat-card fade-in">
+          <div class="stat-card__icon stat-card__icon--blue">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="stat-card__value">4.2 km</div>
+          <div class="stat-card__label">Avg Distance</div>
+        </div>
+        <div class="stat-card fade-in">
+          <div class="stat-card__icon stat-card__icon--orange">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          </div>
+          <div class="stat-card__value">92%</div>
+          <div class="stat-card__label">Wind Energy Usage</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section style="padding: 40px 0 80px;">
+    <div class="container">
+      <h2 style="text-align:center; font-size:2rem; font-weight:800; margin-bottom:12px;">How WindCharge Works</h2>
+      <p style="text-align:center; color:var(--clr-text-light); margin-bottom:48px; max-width:560px; margin-left:auto; margin-right:auto;">
+        Simple, sustainable, and accessible charging powered entirely by wind energy.
+      </p>
+      <div class="stats__grid" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="stat-card fade-in" style="text-align:left; padding:32px;">
+          <div style="width:44px; height:44px; border-radius:50%; background:var(--clr-primary-light); display:flex; align-items:center; justify-content:center; font-weight:800; color:var(--clr-primary); margin-bottom:16px; font-size:1.1rem;">1</div>
+          <h3 style="font-size:1.05rem; font-weight:700; margin-bottom:8px;">Wind Captures Energy</h3>
+          <p style="font-size:0.88rem; color:var(--clr-text-light); line-height:1.7;">Small wind turbines at each station harness wind power and convert it to electricity 24/7.</p>
+        </div>
+        <div class="stat-card fade-in" style="text-align:left; padding:32px;">
+          <div style="width:44px; height:44px; border-radius:50%; background:var(--clr-accent-light); display:flex; align-items:center; justify-content:center; font-weight:800; color:var(--clr-accent); margin-bottom:16px; font-size:1.1rem;">2</div>
+          <h3 style="font-size:1.05rem; font-weight:700; margin-bottom:8px;">Locate a Station</h3>
+          <p style="font-size:0.88rem; color:var(--clr-text-light); line-height:1.7;">Use the interactive map to find the nearest available WindCharge station on your route.</p>
+        </div>
+        <div class="stat-card fade-in" style="text-align:left; padding:32px;">
+          <div style="width:44px; height:44px; border-radius:50%; background:var(--clr-primary-light); display:flex; align-items:center; justify-content:center; font-weight:800; color:var(--clr-primary); margin-bottom:16px; font-size:1.1rem;">3</div>
+          <h3 style="font-size:1.05rem; font-weight:700; margin-bottom:8px;">Charge Your Device</h3>
+          <p style="font-size:0.88rem; color:var(--clr-text-light); line-height:1.7;">Plug in and charge your mobile device using 100% clean, renewable wind energy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wind Monitoring Widget -->
+  <div class="wind-widget" id="windWidget">
+    <div class="wind-widget__header">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"/>
+      </svg>
+      Wind Monitor
+    </div>
+    <div class="wind-widget__row">
+      <span class="wind-widget__label">Speed</span>
+      <span class="wind-widget__value" id="wind-speed">-- km/h</span>
+    </div>
+    <div class="wind-widget__row">
+      <span class="wind-widget__label">Direction</span>
+      <span class="wind-widget__value" id="wind-direction">--</span>
+    </div>
+    <div class="wind-widget__status wind-widget__status--active" id="wind-status">
+      ⚡ Generating Power
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <svg width="24" height="24" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="#d5f5e3"/><path d="M24 8 L24 40 M24 16 L16 26 M24 16 L32 26" stroke="#27ae60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="16" r="3" fill="#27ae60"/></svg>
+            WindCharge
+          </div>
+          <p class="footer__desc">Empowering travelers with clean, renewable mobile charging infrastructure powered by wind energy across India.</p>
+        </div>
+        <div>
+          <div class="footer__title">Platform</div>
+          <div class="footer__links">
+            <a href="index.html">Home</a>
+            <a href="map.html">Station Map</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__title">Resources</div>
+          <div class="footer__links">
+            <a href="about.html">How It Works</a>
+            <a href="about.html">Why Wind Energy</a>
+            <a href="about.html">Sustainability</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__title">Connect</div>
+          <div class="footer__links">
+            <a href="contact.html">Get in Touch</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        &copy; 2026 WindCharge Station Finder. All rights reserved. | Renewable Energy for a Better Tomorrow
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
